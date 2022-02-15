@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta
+    http-equiv="X-UA-Compatible"
+    content="IE=edge"
+  >
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  >
+  <title>CASIO - UNIT SYSTEM</title>
+ <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="app2.css"
+  />
+</head>
+
+<body>
+<div id="app">
+  <div class="container">
+    <h1><span>Name, Country, Occupation</span><span class="yomi">名前・国・仕事</span></h1>
+    <accordion :init-open="false">
+      <span slot="toggle-text"><span>How do you do?</span><span class="yomi">ハウ ドゥ ユウ ドゥ?</span></span>
+      <p slot="content">はじめまして。</p>
+      <p slot="content">Hajimemashite.</p>
+      <p slot="content" style="text-align: center;"><img width="50%" src="images/businessman_aisatsu.png"/></p>
+    </accordion>
+    <accordion :init-open="false">
+      <span slot="toggle-text"><span>What is your name?</span><span class="yomi">ウァット イズ ユア ネイム?</span></span>
+      <p slot="content">お名前は?</p>
+      <p slot="content">O-namae wa?</p>
+      <p slot="content" style="text-align: center;"><img width="50%" src="images/business_woman3_1_question.png"/></p>
+    </accordion>
+    <accordion :init-open="false">
+      <span slot="toggle-text"><span>I am Mohammed.</span><span class="yomi">アイ アム モハメッド</span></span>
+      <p slot="content">モハメッドです。</p>
+      <p slot="content">Mohameddo desu.</p>
+      <p slot="content" style="text-align: center;"><img width="50%" src="images/jikosyoukai_businessman.png"/></p>
+    </accordion>
+    <accordion :init-open="false">
+      <span slot="toggle-text"><span>Where are you from?</span><span class="yomi">ウェアー アー ユー フロム?</span></span>
+      <p slot="content">お国は?</p>
+      <p slot="content">O-kuni wa?</p>
+      <p slot="content" style="text-align: center;"><img width="50%" src="images/business_woman3_1_question.png"/></p>
+    </accordion>
+    <accordion :init-open="false">
+      <span slot="toggle-text"><span>I'm from Indonesia.</span><span class="yomi">アイム フロム インドニージャ</span></span>
+      <p slot="content">インドネシアです。</p>
+      <p slot="content">Indoneshia desu.</p>
+      <p slot="content" style="text-align: center;"><img width="50%" src="images/jikosyoukai_businessman.png"/></p>
+    </accordion>
+    <accordion :init-open="false">
+      <span slot="toggle-text"><span>What do you do?</span><span class="yomi">ウァット ドゥ ユー ドゥ?</span></span>
+      <p slot="content">お仕事は?</p>
+      <p slot="content">O-shigoto wa?</p>
+      <p slot="content" style="text-align: center;"><img width="50%" src="images/business_woman3_1_question.png"/></p>
+    </accordion>
+    <accordion :init-open="false">
+      <span slot="toggle-text"><span>I am a civil servant/public officer.</span><span class="yomi">アイ アム ア スィヴィル サーヴァント / パブリック オフィサー</span></span>
+      <p slot="content">公務員です。</p>
+      <p slot="content">Kōmuin desu.</p>
+      <p slot="content" style="text-align: center;"><img width="50%" src="images/jikosyoukai_businessman.png"/></p>
+    </accordion>
+    <accordion :init-open="false">
+      <span slot="toggle-text"><span>Nice to meet you. </span><span class="yomi">ナイス トゥ ミーチュー</span></span>
+      <p slot="content">どうぞよろしく。</p>
+      <p slot="content">Dōzo yoroshiku.</p>
+      <p slot="content" style="text-align: center;"><img width="50%" src="images/akusyu_man_gaikokujin.png"/></p>
+    </accordion>
+    <accordion :init-open="false">
+      <span slot="toggle-text"><span>I am from Bangkok in Thailand.</span><span class="yomi">アイ アム フロム バンコック イン タイランド</span></span>
+      <p slot="content">タイのバンコクから来ました。</p>
+      <p slot="content">Tai no Bankoku kara kimashita.</p>
+      <p slot="content" style="text-align: center;"><img width="50%" src="images/jikosyoukai_businessman.png"/></p>
+    </accordion>
+    <accordion :init-open="false">
+      <span slot="toggle-text"><span>Excuse me, are you Mr. Yamada?</span><span class="yomi">エクスキューズ ミー, アーユー ミスター ヤマダ?</span></span>
+      <p slot="content">すみません、山田さんですか｡</p>
+      <p slot="content">Sumimasen, Yamada-san desu ka?</p>
+      <p slot="content" style="text-align: center;"><img width="50%" src="images/jikosyoukai_businessman.png"/></p>
+    </accordion>
+    <accordion :init-open="false">
+      <span slot="toggle-text"><span>Yes, I am.</span><span class="yomi">イェス, アイアム</span></span>
+      <p slot="content">はい、そうです。</p>
+      <p slot="content">Hai, sō desu.</p>
+      <p slot="content" style="text-align: center;"><img width="50%" src="images/poze_unazuku_man.png"/></p>
+    </accordion>
+    <accordion :init-open="false">
+      <span slot="toggle-text"><span>No, I'm not. I am Suzuki.</span><span class="yomi">ノゥ アイム ナット. アイ アム スズキ</span></span>
+      <p slot="content">いいえ、ちがいます。 鈴木です。</p>
+      <p slot="content">lie, chigaimasu. Suzuki desu.</p>
+      <p slot="content" style="text-align: center;"><img width="50%" src="images/pose_kubifuri_woman.png"/></p>
+    </accordion>
+    <accordion :init-open="false">
+      <span slot="toggle-text"><span>This is the first time I've been to Japan.</span><span class="yomi">ディス イズ ザ ファースト タイム アイヴ ビーン トゥ ジャパン</span></span>
+      <p slot="content">日本へ初めて来ました。</p>
+      <p slot="content">Nihon e hajimete kimashita.</p>
+      <p slot="content" style="text-align: center;"><img width="50%" src="images/jikosyoukai_businessman.png"/></p>
+    </accordion>
+  </div>
+</div>
+
+<script type="text/x-template" id="accordion">
+  <div class="accordion">
+    <div class="toggle" @click="toggle">
+      <i class="fa fa-minus-circle" v-if="open"></i>
+      <i class="fa fa-plus-circle" v-else></i>
+      <slot name="toggle-text"></slot>
+    </div>
+    <transition name="slide">
+      <div class="content" v-show="open">
+        <slot name="content"></slot>
+      </div>
+    </transition>
+  </div>
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.min.js"></script>
+<script src="app2.js"></script>
+</body>
+
+</html>
